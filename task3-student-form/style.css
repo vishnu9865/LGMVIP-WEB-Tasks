@@ -1,0 +1,134 @@
+
+body {
+  height: 89vh;
+  align-items: center;
+  background-image: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(70,184,252,1) 100%);
+  }
+  
+ 
+#first1,#email1,#formFile,#no1 {
+  border: 2px solid rgb(21, 21, 22);
+    border-radius: 3px;
+   
+}
+
+#li {
+  margin-left: 60%;
+  cursor: pointer;
+  flex-direction: column;
+}
+
+#li1 {
+  margin-right: 0%;
+  cursor: pointer;
+  flex-direction: column;
+}
+
+.container{
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 2%;
+  
+  }
+
+.main {
+  font-family: 'Arima', cursive;
+  color: rgb(227, 98, 98);
+  height: 70px;
+  padding: 20px;
+  padding-top: 20px;
+}
+
+#at {
+    color: #211f1f;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-weight: 800;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+
+}
+  .row{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  div.container {
+    border-radius: 10%;
+  }
+ 
+  div.sec-form, div.sec-user{
+    justify-content: center ;
+    background: rgba(237, 231, 229, 0.46);
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  div.sec-form h1, div.sec-user h1{
+    padding-top: 3%;
+    text-align: center;
+  }
+  
+  div .gender{
+    margin-right: 2%;
+  }
+  
+  div .check2{
+    display: flex;
+  }
+  
+  div .check1{
+    display: flex;
+  }
+  
+  .btn2{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    font-weight: bolder;
+  }
+
+
+  .card-body p, .card-body h5{
+    color: #000 ;
+    border-radius: 40px;
+    
+  }
+
+    .card1 {
+      margin-top: 0px;
+     align-content: center;
+     width: 300px;
+     margin: 0 auto;
+     border-radius: 40px; 
+     
+  }
+ #one{
+   color: white;
+ }
+
+  
+  button.btn.btn-primary.col-12.col-sm-9.enroll1 {
+    color: rgb(17, 17, 17);
+    background-color: #a2a3a6;
+    border-color: #101011;
+    width: 70px;
+}
+button.btn.btn-danger.col-8.col-sm-2.clear1 {
+  color: rgb(17, 17, 17);
+  background-color: #a2a3a6;
+  border-color: #101011;
+}
